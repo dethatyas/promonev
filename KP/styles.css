@@ -31,7 +31,7 @@ label a{
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: black;
+    background-color: rgb(195, 195, 195);
 }
 .bg{
     background-image: url(bg1.jpg);
@@ -171,3 +171,59 @@ ul {
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+  .container-utama{
+    width: 70%;
+    background-color: #3904aa;
+    padding: 0 15px 0 15 px;
+}
+
+/* Dropdown Style */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-select {
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+/* Button Style */
+.btn-cari {
+  background: orange;
+  color: white;
+  border: 0;
+  margin-top: 1px;
+  margin-left: 1px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Table Style */
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.header-cell {
+  background: #ff3636;
+  color: white;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: bold;
+}
